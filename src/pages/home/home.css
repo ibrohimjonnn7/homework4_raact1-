@@ -163,21 +163,50 @@
 }
 
 .container13 {
-  width: 85%;
-  margin: auto;
-  margin-top: 30px;
   display: flex;
+  align-items: center;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .container14 {
-  width: 85%;
-  margin: auto;
+  text-align: center;
   margin-top: 30px;
-  display: flex;
-  justify-content: center;
 }
-
+.p13 {
+  color: gray;
+}
+.a {
+  color: red;
+}
+.Container15 {
+  display: flex;
+  margin: auto;
+  width: 85%;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.p2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.box {
+  text-align: center;
+  margin-top: 30px;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+.button4 {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
 /* General Styles (No changes needed)
 
 

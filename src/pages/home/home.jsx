@@ -6,14 +6,15 @@ import img5 from "@/app/assets/img/img5.png";
 import img6 from "@/app/assets/img/img6.png";
 import img7 from "@/app/assets/img/img7.png";
 import img8 from "@/app/assets/img/img8.png";
-import img9 from "@/app/assets/img/img9.png";
-import img10 from "@/app/assets/img/img10.png";
-import img11 from "@/app/assets/img/img11.png";
-import img12 from "@/app/assets/img/img12.png";
-import img13 from "@/app/assets/img/img13.png";
-import img14 from "@/app/assets/img/img14.png";
-import img16 from "@/app/assets/img/img16.png";
-import img17 from "@/app/assets/img/img17.png";
+import img18 from "@/app/assets/img/img18.png";
+import img19 from "@/app/assets/img/img19.png";
+import img20 from "@/app/assets/img/img20.png";
+import img21 from "@/app/assets/img/img21.png";
+import img22 from "@/app/assets/img/img22.png";
+import img23 from "@/app/assets/img/img23.png";
+import img24 from "@/app/assets/img/img24.png";
+import img25 from "@/app/assets/img/img25.png";
+import img26 from "@/app/assets/img/img26.png";
 export default function HomePage() {
   return (
     <div className="all">
@@ -190,9 +191,21 @@ function Container9() {
   return (
     <>
       <div className="container9">
-        <img src={img9} alt="" />
-        <img src={img10} alt="" />
-        <img src={img11} alt="" />
+        <div className="boxx1">
+          <img src={img21} alt="" />
+          <h6>Decor Plate</h6>
+          <h6>$ 65.00 USD</h6>
+        </div>
+        <div className="boxx1">
+          <img src={img22} alt="" />
+          <h6>Decor Plate</h6>
+          <h6>$ 65.00 USD</h6>
+        </div>
+        <div className="boxx1">
+          <img src={img23} alt="" />
+          <h6>Decor Plate</h6>
+          <h6>$ 65.00 USD</h6>
+        </div>
       </div>
     </>
   );
@@ -202,9 +215,21 @@ function Container10() {
   return (
     <>
       <div className="container10">
-        <img src={img12} alt="" />
-        <img src={img13} alt="" />
-        <img src={img14} alt="" />
+        <div className="boxx2">
+          <img src={img24} alt="" />
+          <h6>Decor Plate</h6>
+          <h6>$ 65.00 USD</h6>
+        </div>
+        <div className="boxx2">
+          <img src={img25} alt="" />
+          <h6>Decor Plate</h6>
+          <h6>$ 65.00 USD</h6>
+        </div>
+        <div className="boxx2">
+          <img src={img26} alt="" />
+          <h6>Decor Plate</h6>
+          <h6>$ 65.00 USD</h6>
+        </div>
       </div>
     </>
   );
@@ -240,8 +265,15 @@ function Container12() {
 function Container13() {
   return (
     <>
+      <p className="p2">Latest news</p>
       <div className="container13">
-        <img src={img16} alt="" />
+        <p className="p6">Porcelain</p>
+        <img src={img3} alt="" />
+        <p className="p6">Pottery</p>
+      </div>
+      <div className="box">
+        <input type="text" className="search..." />
+        <button className="button4">SUBSCRIBE</button>
       </div>
     </>
   );
@@ -251,13 +283,50 @@ function Container14() {
   return (
     <>
       <div className="container14">
-        <img src={img17} alt="" />
+        <p className="p12">Pompeo</p>
+        <br />
+        <p className="p13">
+          I have always striven to fix beauty in wood, stone, <br />
+          glass or pottery, that has been my creed.
+        </p>
       </div>
     </>
   );
 }
 
-
+function Footer({ imgSrc, text1, text2, classname }) {
+  return (
+    <div className={classname}>
+      <img src={imgSrc} alt="" />
+      <h4>{text1}</h4>
+      <h5>{text2}</h5>
+    </div>
+  );
+}
+function Container15() {
+  return (
+    <div className="Container15">
+      <Footer
+        imgSrc={img18}
+        tex1="EMAIL"
+        text2="pompeopotery@gmail.com"
+        classname="a"
+      />
+      <Footer
+        imgSrc={img19}
+        tex1="EMAIL"
+        text2="pompeopotery@gmail.com"
+        classname="a"
+      />
+      <Footer
+        imgSrc={img20}
+        tex1="EMAIL"
+        text2="pompeopotery@gmail.com"
+        classname="a"
+      />
+    </div>
+  );
+}
 function Profile() {
   return (
     <div className="profile">
@@ -276,6 +345,7 @@ function Profile() {
       <Container12 />
       <Container13 />
       <Container14 />
+      <Container15 />
     </div>
   );
 }
