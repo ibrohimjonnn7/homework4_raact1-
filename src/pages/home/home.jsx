@@ -16,9 +16,9 @@ import img16 from "@/app/assets/img/img16.png";
 import img17 from "@/app/assets/img/img17.png";
 export default function HomePage() {
   return (
-    <>
+    <div className="all">
       <Profile />
-    </>
+    </div>
   );
 }
 
