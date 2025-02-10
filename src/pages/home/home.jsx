@@ -199,12 +199,12 @@ function Container9() {
         <div className="boxx1">
           <img src={img22} alt="" />
           <h6>Decor Plate</h6>
-          <h6>$ 65.00 USD</h6>
+          <h6>$ 60.00 USD</h6>
         </div>
         <div className="boxx1">
           <img src={img23} alt="" />
           <h6>Decor Plate</h6>
-          <h6>$ 65.00 USD</h6>
+          <h6>$ 70.00 USD</h6>
         </div>
       </div>
     </>
@@ -223,12 +223,12 @@ function Container10() {
         <div className="boxx2">
           <img src={img25} alt="" />
           <h6>Decor Plate</h6>
-          <h6>$ 65.00 USD</h6>
+          <h6>$ 75.00 USD</h6>
         </div>
         <div className="boxx2">
           <img src={img26} alt="" />
           <h6>Decor Plate</h6>
-          <h6>$ 65.00 USD</h6>
+          <h6>$ 80.00 USD</h6>
         </div>
       </div>
     </>
